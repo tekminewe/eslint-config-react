@@ -1,12 +1,15 @@
 {
   "name": "@tekminewe/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "",
-  "main": "eslintrc.cjs",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": "",
   "license": "ISC",
   "publishConfig": {
@@ -21,8 +24,6 @@
     "typescript": "^4.9.4"
   },
   "peerdependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.49.0",
-    "@typescript-eslint/parser": "^5.49.0",
     "eslint": "^8.32.0",
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
